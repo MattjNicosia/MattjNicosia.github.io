@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+/* ====================================
+ Header
+==================================== */
+
+header.page-header {
+	background-color: rgba(241,90,41);
+	height: 180px;
+}
+
+.page-header .logo-section {
+	width: 200px;
+	/* height: 200px; */
+	padding-right: 120px;
+	padding-bottom: 50px;
+}
+
+/* ==================================== 
+ Nav 
+==================================== */
+
+nav.header-nav {
+	font-family: "PT Sans Caption";
+	text-align: right;
+}
+
+.header-nav ul {
+	background-color: rgba(27,117,188);
+	display: inline-block;
+	font-size: 20px;
+	list-style: none;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.header-nav li {
+	display: inline-block;
+	text-align: center;
+}
+
+.header-nav a {
+	margin-left: 70px;
+	color: white;
+}
+
+/* ====================================  
+ Typography
+==================================== */
+
+h1 {
+	color: white;
+	font-family: "PT Sans Caption";
+	font-size: 50px;
+	padding-left: 200px;
+	margin-top: -210px;
+}
+
+h2 {
+	color: white;
+	font-size: 50px;
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: "PT Sans Caption";
+}
+
+h4 {
+	color: white;
+	font-size: 30px;
+	padding-left: 200px;
+	padding-bottom: 50px;
+	margin-top: -40px;
+	font-family: "PT Sans Caption";
+}
+
+/* ====================================  
+ Body
+==================================== */
+
+#main {
+	background-size: cover;
+	position: center;
+	min-height: 470px; /* temporary */
+	min-width: 724px; /* temporary */
+}
+
+#main .row {
+	text-align: center;
+	font-family: "Times New Roman";
+	color: white;
+	font-size: 20px;
+}
+
+#main .row.work-layout {
+	padding-top: 0px;
+}
+
+.primary-content {
+	border-radius: 10px;
+	background-color: rgba(27,117,188,.7);
+	margin: 0 auto;
+}
+
+p {
+	padding-right: 100px;
+	padding-left: 100px;
+	margin-bottom: 10px;
+	margin-top: -30px;
+	color: white;
+}
+
+.button{
+	position: center;
+	height: 100px; /* temporary */
+	width: 200px;
+	transition: 1s; 
+}
+
+.button:hover {
+	transform: scale(1.1);
+}
+
+.art-block{
+	padding: 10px; 
+	background-color: rgb(163,200,228); 
+	margin: 5px 5px 0 5px;
+	border-radius: 10px;
+	max-width: 32.8%;
+	display: inline-block;
+	font-size: 0px;
+}
+
+.art-block:last-child{
+	margin-bottom: 10px;
+}
+
+.art-block:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.art-block h4,
+.art-block p {
+	display: none;
+	font-size: 20px;
+}
+
+.art-photo {
+	display: inline-block;
+	background-color: rgb(255,255,255);
+	border-radius: 10px;
+	transition: 1s; 
+}
+
+.art-photo:hover {
+	transform: scale(1.1);
+}
+ 
+.art-block .art-title {
+	margin-top: 0;
+	margin-bottom: -50px;
+	font-family: "PT Sans Caption";
+	color: rgba(0,0,0);
+	font-size: 20px;
+}
+
+.resume-photo {
+	box-shadow: 0 0 5px 5px rgb(0, 0, 0, .3);
+	max-width: 865px;
+	margin: 10px auto;
+}
+
+/* ====================================  
+ Footer
+==================================== */
+
+footer.page-footer {
+	background-color: rgba(27,117,188);
+	padding: 10px;
+	color: rgba(255,255,255);
+	font-family: "PT Sans Caption";
+	text-align: right;
+}
+
+.page-footer .social-links {
+	display: inline-block;
+	font-size: 0;
+}
+
+.page-footer .icon {
+	display: inline-block;
+	height: 36px;
+	width: 36px;
+	margin-right: 10px;
+}
+
+.page-footer #copy {
+	position: absolute;
+}
+
+
+/* ====================================  
+ Page-specific styles
+==================================== */
+
+.index .primary-content {
+ 	width: 80%;
+}
+
+.resume .primary-content {
+	width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+

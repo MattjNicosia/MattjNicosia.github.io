@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+a.you-are-here,
+a.you-are-here:link {
+	color: rgba(241,90,41);
+	text-decoration: none;
+}
+
+a,
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+
+}
+
+a:active {
+
+}
+
+a:hover {
+	color: rgba(241,90,41);
+	/*text-decoration: underline;*/
+}

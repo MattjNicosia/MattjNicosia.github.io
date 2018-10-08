@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+.row{
+	width: 100%;
+}
+
+/* CSS Pseudo Element */
+.row::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.row + .row {
+	padding-top: 20px;
+}
+
+.row.work-layout {
+	text-align: center;
+}
+
+.row.work-layout img{
+	width: 100%;
+}
+
+.col-content{
+	background-color: rgba(255,255,255,.5);
+	padding: 1%;
+	margin: 2%;
+}
+
+[class*="col-"]{
+	margin: .25%;
+	word-wrap: break-word;
+	float: left;
+}
+
+	.col-10{width: 100%;}
+	.col-20{width: 100%;}
+	.col-30{width: 100%;}
+	.col-40{width: 100%;}
+	.col-50{width: 100%;}
+	.col-60{width: 100%;}
+	.col-70{width: 100%;}
+	.col-80{width: 100%;}
+	.col-90{width: 100%;}
+	.col-100{width: 100%;}   
+
+/**
+ * This is a media query
+ */						
+@media only screen and (min-width: 767px){
+	.col-10{width: 9%;}
+	.col-20{width: 19%;}
+	.col-30{width: 32.8%;}
+	.col-40{width: 39%;}
+	.col-50{width: 49.5%;}
+	.col-60{width: 59%;}
+	.col-70{width: 69%;}
+	.col-80{width: 79%;}
+	.col-90{width: 89%;}
+	.col-100{width: 99%;}
+
+}
+
+@media only screen and (max-width: 766px){
+
+	/* ====================================
+ 	Header
+	==================================== */
+
+	header.page-header {
+		height: 180px;
+		text-align: center;
+	}
+
+	.page-header h1,
+	.page-header h4{
+		visibility: hidden;
+		position: absolute;
+		left: -9999px;
+	}
+
+	.page-header .logo-section {
+		padding-right: 0px;
+		padding-bottom: 0px;
+		margin: 0 auto;
+		display: block;
+	}
+
+	/* ==================================== 
+	 Nav 
+	==================================== */
+	nav.header-nav {
+		text-align: center;
+	}
+
+	.header-nav ul {
+		display: block;
+		padding-right: 10px;
+	}
+
+	.header-nav li {
+		display: block;
+		text-align: center;
+		padding: 5px 0;
+	}
+
+	.header-nav li + li{
+		border-top: 2px solid white;
+	}
+
+	.header-nav a {
+		margin-left: 0;
+	}
+
+
+	/* ==================================== 
+	 Body
+	==================================== */
+
+	#main {
+		min-width: 0;
+	}
+
+	.art-block {
+		max-width: 100%;
+	}
+
+	.resume-block {
+		display: none;
+	}
+
+}
+
+
