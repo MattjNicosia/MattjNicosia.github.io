@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
 
 /* ====================================
  Header
@@ -100,14 +101,14 @@ h4 {
 	border-radius: 10px;
 	background-color: rgba(27,117,188,.7);
 	margin: 0 auto;
+	color: white;
 }
 
-p {
+.primary-content p {
 	padding-right: 100px;
 	padding-left: 100px;
 	margin-bottom: 10px;
 	margin-top: -30px;
-	color: white;
 }
 
 .button{
