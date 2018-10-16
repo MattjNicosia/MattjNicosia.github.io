@@ -2,7 +2,7 @@
 
 a.you-are-here,
 a.you-are-here:link {
-	color: rgba(241,90,41);
+	color: rgba(241,90,41,1);
 	text-decoration: none;
 }
 
@@ -20,6 +20,6 @@ a:active {
 }
 
 a:hover {
-	color: rgba(241,90,41);
+	color: rgba(241,90,41,1);
 	/*text-decoration: underline;*/
 }

@@ -5,7 +5,7 @@
 ==================================== */
 
 header.page-header {
-	background-color: rgba(241,90,41);
+	background-color: rgba(241,90,41,1);
 	height: 180px;
 }
 
@@ -26,7 +26,7 @@ nav.header-nav {
 }
 
 .header-nav ul {
-	background-color: rgba(27,117,188);
+	background-color: rgba(27,117,188,1);
 	display: inline-block;
 	font-size: 20px;
 	list-style: none;
@@ -177,9 +177,9 @@ p {
 ==================================== */
 
 footer.page-footer {
-	background-color: rgba(27,117,188);
+	background-color: rgba(27,117,188,1);
 	padding: 10px;
-	color: rgba(255,255,255);
+	color: rgba(255,255,255,1);
 	font-family: "PT Sans Caption";
 	text-align: right;
 }
